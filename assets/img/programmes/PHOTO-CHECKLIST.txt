@@ -1,0 +1,75 @@
+PHOTOS NEEDED FOR THE PROGRAMME PAGES
+=====================================
+
+Drop the real photos into this folder using EXACTLY these filenames.
+No code changes are needed once the files are here.
+
+Recommended: JPG, roughly 1200x900px (4:3), under 400KB each.
+Cover images are used on the Our Work cards and at the top of each
+programme page - use the strongest photo of each programme.
+
+
+ELDERLY WOMEN FOOD SUPPORT OUTREACH  ->  elderly-women-outreach.html
+--------------------------------------------------------------------
+elderly-outreach-cover.jpg   Main/hero photo - ALSO reused as the closing
+                             gallery image, so you only supply it once
+elderly-outreach-1.jpg       Registration/coordination at the community palace
+elderly-outreach-2.jpg       The 40 elderly women gathered
+elderly-outreach-3.jpg       Food supplies being distributed
+elderly-outreach-4.jpg       Yop Musa, 91 - the oldest woman in the community
+elderly-outreach-5.jpg       Volunteers working alongside community leaders
+
+(6 files for this programme - there is no elderly-outreach-6.jpg)
+
+
+RESTOCK HER HUSTLE INITIATIVE  ->  restock-her-hustle.html
+----------------------------------------------------------
+restock-her-hustle-cover.jpg   Main/hero photo of the initiative
+
+Sourcing business supplies:
+restock-market-1.jpg           Buying support items at the market
+restock-market-2.jpg           Selecting goods based on her business needs
+restock-market-3.jpg           Essential supplies purchased
+
+Ms. Valentina and the support items:
+restock-valentina-1.jpg        Valentina alongside the items provided
+restock-valentina-2.jpg        The practical tools handed over
+restock-valentina-3.jpg        Encouragement / handover moment
+
+Her business in action:
+restock-cooking-1.jpg          Valentina preparing meals
+restock-cooking-2.jpg          Daily trading at the roadside business
+restock-cooking-3.jpg          A meal served
+
+Standing with women-owned businesses:
+restock-team-1.jpg             Team buying from her business
+restock-team-2.jpg             Team eating at her business
+restock-team-3.jpg             Community members patronising the business
+
+Volunteers:
+restock-volunteers-1.jpg       Volunteers and community supporters
+restock-volunteers-2.jpg       Volunteers at work
+restock-volunteers-3.jpg       Group photo with volunteers
+
+Additional business support:
+restock-support-1.jpg          Additional business support provided
+restock-support-2.jpg          Support handover
+restock-support-3.jpg          Practical resources for the business
+
+
+SKILLS FOR INDEPENDENCE PROGRAMME  ->  skills-for-independence.html
+-------------------------------------------------------------------
+skills-independence-cover.jpg     Main/hero photo (Bridget at her shop)
+bridget-training.jpg              Bridget during her vocational training
+bridget-graduation.jpg            Bridget's graduation moment
+bridget-volunteering.jpg          Bridget volunteering at community outreach
+bridget-field-coordination.jpg    Bridget on field coordination at the elderly outreach
+bridget-shop.jpg                  Bridget at her new beauty business location
+bridget-journey.jpg               Bridget at work in her business
+
+
+NOTE ON CONSENT
+---------------
+Beneficiaries are named on these pages (Ms. Valentina, Yop Musa,
+Bridget Ishaku, Da Dr. Luka Pagyang). Make sure you have their
+permission to publish their names and photographs before going live.

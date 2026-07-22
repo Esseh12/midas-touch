@@ -6363,3 +6363,99 @@ button {
 	background-color: var(--ul-primary);
 	color: var(--white);
 } /*# sourceMappingURL=style.css.map */
+
+
+/* ===== PROGRAMME PAGES ===== */
+.ul-programme-intro {
+	max-width: 900px;
+}
+.ul-programme-facts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: clamp(15px, 1.58vw, 30px);
+	margin-bottom: clamp(25px, 2.1vw, 40px);
+}
+.ul-programme-fact {
+	background-color: var(--ul-gray3);
+	border-radius: 15px;
+	padding: clamp(15px, 1.26vw, 24px) clamp(20px, 1.58vw, 30px);
+	flex: 1 1 180px;
+}
+.ul-programme-fact-number {
+	display: block;
+	font-family: var(--font-quicksand);
+	font-weight: 700;
+	font-size: clamp(24px, 1.79vw, 34px);
+	color: var(--ul-primary);
+	line-height: 1.2;
+}
+.ul-programme-fact-label {
+	color: var(--ul-p);
+}
+.ul-programme-highlight {
+	background-color: var(--ul-c4);
+	border-left: 5px solid var(--ul-secondary);
+	border-radius: 15px;
+	padding: clamp(20px, 1.79vw, 34px);
+	margin-block: clamp(25px, 2.1vw, 40px);
+}
+.ul-programme-highlight-label {
+	display: block;
+	font-weight: 700;
+	color: var(--ul-c5);
+	margin-bottom: 8px;
+}
+.ul-programme-highlight :last-child {
+	margin-bottom: 0;
+}
+.ul-programme-gallery-group-title {
+	font-family: var(--font-quicksand);
+	font-weight: 700;
+	font-size: clamp(18px, 1.16vw, 22px);
+	margin-bottom: clamp(15px, 1.26vw, 24px);
+}
+.ul-programme-gallery .ul-gallery-item {
+	border-radius: 15px;
+}
+.ul-programme-gallery .ul-gallery-item img {
+	aspect-ratio: 4/3;
+	background-color: var(--ul-gray3);
+}
+.ul-programme-gallery-caption {
+	margin-top: clamp(8px, 0.63vw, 12px);
+	color: var(--ul-p);
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+
+/* ===== IMAGE FIT =====
+   These rules pin a fixed aspect-ratio on photos but never set object-fit, so a
+   photo whose own proportions differ gets stretched to fill the box. Crop to
+   fill instead of distorting. */
+.ul-blog-img img,
+.ul-banner-img .img-wrapper img,
+.ul-donation-img img,
+.ul-why-join-img img,
+.ul-team-member-img img,
+.ul-footer-post .img img,
+.ul-service-img img,
+.ul-project-img img,
+.ul-project--sm .ul-project-img img,
+.ul-service-details-img img,
+.ul-donation-details-img img,
+.ul-donation-details-summary-imgs img {
+	object-fit: cover;
+}
+
+/* Portraits in the wide story cards: bias the crop upward so faces survive. */
+.ul-blog-img img {
+	object-position: center 30%;
+}
+
+/* Keep a neutral placeholder tone while a photo is still missing. */
+.ul-blog-img,
+.ul-event-img,
+.ul-programme-gallery .ul-gallery-item {
+	background-color: var(--ul-gray3);
+}
