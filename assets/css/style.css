@@ -6459,3 +6459,15 @@ button {
 .ul-programme-gallery .ul-gallery-item {
 	background-color: var(--ul-gray3);
 }
+
+
+/* Programme detail hero image: force a consistent landscape banner regardless
+   of the source photo's orientation, so a portrait/near-square cover doesn't
+   tower down the page or sit to the left leaving white space. */
+.ul-event-details-img img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
+	object-position: center 40%;
+}
