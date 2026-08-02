@@ -6471,3 +6471,60 @@ button {
 	object-fit: cover;
 	object-position: center 40%;
 }
+
+
+/* ===== LETTERS OF APPRECIATION ===== */
+.ul-letter {
+	background-color: var(--white);
+	border: 1px solid var(--ul-gray2);
+	border-radius: 20px;
+	padding: clamp(24px, 2.63vw, 50px);
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+	position: relative;
+}
+.ul-letter::before {
+	content: '\201C';
+	position: absolute;
+	top: clamp(-10px, -0.5vw, 0px);
+	left: clamp(18px, 1.58vw, 30px);
+	font-family: var(--font-quicksand);
+	font-size: clamp(80px, 7vw, 130px);
+	line-height: 1;
+	color: var(--ul-primary);
+	opacity: 0.18;
+}
+.ul-letter-from {
+	font-family: var(--font-quicksand);
+	font-weight: 700;
+	font-size: clamp(18px, 1.26vw, 24px);
+	margin-bottom: clamp(15px, 1.26vw, 24px);
+}
+.ul-letter-donation {
+	background-color: var(--ul-c4);
+	border-radius: 15px;
+	padding: clamp(18px, 1.58vw, 30px);
+	margin: clamp(20px, 1.79vw, 34px) 0;
+}
+.ul-letter-donation-title {
+	font-weight: 700;
+	color: var(--ul-c5);
+	margin-bottom: clamp(12px, 1.05vw, 18px);
+}
+.ul-letter-signoff {
+	font-family: var(--font-caveat);
+	font-size: clamp(22px, 1.68vw, 32px);
+	color: var(--ul-primary);
+	margin-top: clamp(15px, 1.26vw, 24px);
+}
+
+
+/* Header dropdown: keep growing gracefully as more Impact items are added.
+   On desktop, cap the height and let a long list scroll inside the dropdown
+   instead of running off the bottom of the screen. */
+@media screen and (min-width: 992px) {
+	.ul-header-submenu {
+		max-height: min(70vh, 460px);
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+}
